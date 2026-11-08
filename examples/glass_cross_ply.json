@@ -1,0 +1,15 @@
+{
+  "title": "图一检验：玻璃/环氧 [0/90/0]，t0/t90=0.2",
+  "materials": {
+    "glass_epoxy": {
+      "E1": 53740, "E2": 17950, "nu12": 0.25, "G12": 8626,
+      "Xt": 1034, "Xc": 1034, "Yt": 27, "Yc": 138, "S": 41
+    }
+  },
+  "plies": [
+    {"material": "glass_epoxy", "thickness": 0.08333333333333333, "angle": 0},
+    {"material": "glass_epoxy", "thickness": 0.8333333333333334, "angle": 90},
+    {"material": "glass_epoxy", "thickness": 0.08333333333333333, "angle": 0}
+  ],
+  "reference_load": [1, 0, 0, 0, 0, 0]
+}

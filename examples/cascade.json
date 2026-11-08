@@ -1,0 +1,20 @@
+{
+  "title": "可手算示例：同载荷下的连续破坏",
+  "materials": {
+    "weak": {
+      "E1": 10000, "E2": 5000, "nu12": 0, "G12": 2000,
+      "Xt": 10, "Xc": 100, "Yt": 100, "Yc": 100, "S": 100
+    },
+    "strong": {
+      "E1": 10000, "E2": 5000, "nu12": 0, "G12": 2000,
+      "Xt": 15, "Xc": 100, "Yt": 100, "Yc": 100, "S": 100
+    }
+  },
+  "plies": [
+    {"material": "weak", "thickness": 1, "angle": 0},
+    {"material": "strong", "thickness": 1, "angle": 0},
+    {"material": "strong", "thickness": 1, "angle": 0},
+    {"material": "weak", "thickness": 1, "angle": 0}
+  ],
+  "reference_load": [1, 0, 0, 0, 0, 0]
+}

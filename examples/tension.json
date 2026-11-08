@@ -1,0 +1,20 @@
+{
+  "title": "对称混合铺层：单向拉伸示例",
+  "materials": {
+    "demo": {
+      "E1": 45000, "E2": 12000, "nu12": 0.25, "G12": 5000,
+      "Xt": 1000, "Xc": 700, "Yt": 40, "Yc": 150, "S": 60
+    }
+  },
+  "plies": [
+    {"material": "demo", "thickness": 0.125, "angle": 0},
+    {"material": "demo", "thickness": 0.125, "angle": 45},
+    {"material": "demo", "thickness": 0.125, "angle": -45},
+    {"material": "demo", "thickness": 0.125, "angle": 90},
+    {"material": "demo", "thickness": 0.125, "angle": 90},
+    {"material": "demo", "thickness": 0.125, "angle": -45},
+    {"material": "demo", "thickness": 0.125, "angle": 45},
+    {"material": "demo", "thickness": 0.125, "angle": 0}
+  ],
+  "reference_load": [1, 0, 0, 0, 0, 0]
+}
